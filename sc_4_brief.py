@@ -81,30 +81,6 @@ class Allo_Cine :
                 csv_writer.writerow(i)
             f.close()
 
-
-            # dico = {'comment': comment, 'note': note}
-            # df = pd.DataFrame.from_dict(dico)
-            #df = pd.DataFrame(dico)
-         
-        
-
-
-                # Connexion BDD
-
-            # mydb = pymysql.connect(
-            #                         host="localhost",
-            #                         user="root",
-            #                         password="example",
-            #                         database="AlloCine",
-            #                         port = 3307
-            #                         )
-            # mycursor = mydb.cursor()
-
-            # # Insertion BDD
-            # sql = f"""INSERT INTO allocine (commentaires, notes) VALUES ("{commentaires.replace('"',' ')}", "{notes.replace(',','.')}")"""
-            # mycursor.execute(sql)
-            # print(sql)
-            # mydb.commit()
             
     @staticmethod
     def parse_all_avis():
